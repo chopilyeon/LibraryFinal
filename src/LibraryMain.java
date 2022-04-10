@@ -27,8 +27,7 @@ public class LibraryMain {
         System.out.println("1.회원가입");
         System.out.println("2.책 빌리기");
         System.out.println("3.책 반납");
-		System.out.println("4.대출가능한 도서 목록");
-        System.out.println("4.비밀번호");
+	System.out.println("4.대출가능한 도서 목록");
         System.out.println("5.비밀번호 확인");
         System.out.println("6.비밀번호 수정");
         System.out.println("6.(회원만)회원정보 보기");
