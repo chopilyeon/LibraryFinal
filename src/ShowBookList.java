@@ -10,7 +10,7 @@ public class ShowBookList {
         if(loginlist.containsKey(new Member(id,password))){
             System.out.println("===================대출 가능한 도서 목록입니다.========================");
             for(int i=0;i<bookmanage.size();i++){
-                System.out.println(bookmanage.get(i).getBookname()+bookmanage.get(i).getWriter());
+                System.out.println("책 이름: \t"+bookmanage.get(i).getBookname()+"\t 작가:\t"+bookmanage.get(i).getWriter());
 
             }
         }else{

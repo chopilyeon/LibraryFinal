@@ -37,7 +37,7 @@ public class Manager extends Member{
     	if(managerlist.containsKey(new Manager(id))&&managerlist.get(new Manager(id)).equals(password)){
     		Set<Map.Entry<Member, Book>> set = booklist.entrySet();
     		for (Map.Entry<Member, Book> e : set) {
-    			System.out.println(e.getKey().getId()+"\t"+e.getKey().getPassword() + "\t" + e.getValue().getBookname()+"\t"+e.getValue().getWriter()+"\t"+e.getValue().getDate());
+    			System.out.println("아이디:\t"+e.getKey().getId()+"\t 비밀번호:\t"+e.getKey().getPassword() + "\t책 이름\t" + e.getValue().getBookname()+"\t작가명\t"+e.getValue().getWriter()+"\t날짜\t"+e.getValue().getDate());
     		}
     	}else {
     		System.out.println("관리자가 아닙니다. 돌아가주세요");
