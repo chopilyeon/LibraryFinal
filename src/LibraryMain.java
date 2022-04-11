@@ -11,14 +11,14 @@ public class LibraryMain {
 
 		//--------------------------------------------------------------
 
-		joinlist.put(new Member02("조재희","9503051411711"),new Member02("jaehee3679","4a5s6d1f2g","01029523679"));
-		loginlist.put(new Member("jaehee3679","4a5s6d1f2g"),new Member("조재희","9503051411711","01029523679"));
-		booklist.put(new Member("jaehee3679","4a5s6d1f2g"), new Book("없음","없음","없음","없음"));
-		joinlist.put(new Member02("조필연","9503050000000"),new Member02("wogml3679","4a5s6d1f2g","01022222222"));
-		loginlist.put(new Member("wogml3679","4a5s6d1f2g"),new Member("조필연","9503050000000","01022222222"));
-		booklist.put(new Member("wogml3679","4a5s6d1f2g"), new Book("없음","없음","없음","없음"));
-		System.out.println(loginlist.get(new Member("jaehee3679","4a5s6d1f2g")));
-		System.out.println(joinlist.get(new Member02("조재희","9503051411711")));
+		joinlist.put(new Member02("조재희","9503050000000"),new Member02("jjhn2222","1234","01022222222"));
+		loginlist.put(new Member("jjhn2222","1234"),new Member("조재희","9503050000000","01022222222"));
+		booklist.put(new Member("jjhn2222","1234"), new Book("없음","없음","없음","없음"));
+		joinlist.put(new Member02("조필연","6605150000000"),new Member02("wogml3679","0000","01011111111"));
+		loginlist.put(new Member("wogml3679","0000"),new Member("조필연","6605150000000","01011111111"));
+		booklist.put(new Member("wogml3679","0000"), new Book("없음","없음","없음","없음"));
+		System.out.println(loginlist.get(new Member("jjhn2222","1234")));
+		System.out.println(joinlist.get(new Member02("조재희","9503050000000")));
 		managerlist.put(new Manager("jaehee"),"1234");
 		bookmanage.add(new Book("동백꽃","김유정"));
 		bookmanage.add(new Book("동백꽃","김유정"));
