@@ -39,7 +39,7 @@ booklist에도 key값에 id와 password 빌린 도서와 빌린 도서의 작가
 
 ## 4)시연 동영상
 
-도서관리 프로그램 시연 영상입니다.
+도서관리 프로그램(IN-MEMORY 방식) 시연 영상입니다.
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/qSjuKNe8xIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
